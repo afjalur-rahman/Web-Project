@@ -1,0 +1,117 @@
+*{
+     box-sizing: border-box;
+}
+.bgimg{
+    background-image: url('../photos/af.jfif');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+   height:600px;
+}
+
+.bgimg .navbar .font .text_font a{
+    text-transform: uppercase;
+    padding: .5rem 1.5rem;
+    font-size:larger;
+    color: white;
+}
+.bgimg .navbar .font .text_font a:hover{
+    
+    color:rgb(11, 128, 0);
+    transition-duration: .4s;
+}
+.bgimg .navbar .font a{
+    font-size: x-large;
+    
+}
+.bgimg .headerset{
+    padding-top: 120px;
+}
+.bgimg .headerset h3{
+    text-transform: capitalize;
+    color: white;
+    font-size: 45px;;
+}
+.bgimg .headerset h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.bgimg .headerset .btn{
+    background-color: rgba(179, 255, 0, 0.808);
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bolder;
+}
+.bgimg .headerset .btn:hover{
+    background-color:transparent;
+    border: 2px solid rgba(179, 255, 0, 0.808);
+    color: red;
+    transition-duration: .4s;
+    font-weight: bolder;
+}
+/*====================================our service*/
+.ourservice{
+    padding: 100px 0px 60px;
+   
+}
+.ourservice h1{
+    font-weight: bolder;
+}
+.row_setting{
+    margin-top: 60px;   
+}
+.imgsetting{
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    background-color:rgb(241, 191, 24);
+    padding:15px;
+    color: white;
+}
+.ourservice .row_setting h2,p{
+padding-top:15px;
+}
+
+/* portfolio -------------------------------*/
+.portfolio{
+    padding-top:100px;
+}
+.portfolio h1{
+    font-weight: bolder;
+    font-size:50px;
+
+}
+.rowset{
+    padding-top:50px;
+}
+.rowset .card{
+    margin-top:20px;
+    
+}
+/* our team---------------*/
+.ourteam{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.ourteam h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.ourteam p{
+    font-size: x-large;
+}
+.ourteam .rowset img{
+    height: 250px;
+    width: 250px;
+}
+/*-----------------------------------footer------------------------------*/
+
+
+
